@@ -1,0 +1,30 @@
+# Distributed jars are tracked intentionally (this repo archives them)
+# so do NOT ignore *.jar globally
+
+# Build outputs
+build/
+*/build/
+.gradle/
+*/.gradle/
+bin/
+*/bin/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Logs / crash dumps
+*.log
+hs_err_pid*
+replay_pid*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local run dirs
+run/
+runs/
